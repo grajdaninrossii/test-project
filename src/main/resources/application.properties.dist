@@ -1,0 +1,31 @@
+#spring.main.banner-mode=
+#logging.level.org.springframework=
+
+# Hibernate ddl auto (create, drop, validate, update)
+spring.jpa.hibernate.ddl-auto=
+spring.jpa.generate-ddl=true
+spring.jpa.show-sql=false
+
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.maxActive=
+spring.datasource.maxIdle=
+spring.datasource.minIdle=
+spring.datasource.initialSize=
+spring.datasource.removeAbandoned=
+
+spring.datasource.initialization-mode=
+spring.datasource.platform=postgres
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+# Dialect
+spring.jpa.properties.hibernate.dialect=
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=
+spring.jpa.open-in-view=
+
+server.port=
+
+
+#spring.liquibase.enabled=
+#spring.liquibase.change-log=

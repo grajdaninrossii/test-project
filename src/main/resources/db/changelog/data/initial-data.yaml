@@ -1,0 +1,22 @@
+databaseChangeLog:
+- changeSet:
+      id: 1664868377952-12
+      author: kuzin (generated)
+      changes:
+          - loadData:
+                columns:
+                    - column:
+                          header: id
+                          name: id
+                          type: NUMERIC
+                    - column:
+                          header: name
+                          name: name
+                          type: STRING
+                commentLineStartsWith: '#'
+                encoding: UTF-8
+                file: data/roles.csv
+                quotchar: '"'
+                separator: ','
+                relativeToChangelogFile: true
+                tableName: roles

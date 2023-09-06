@@ -1,0 +1,5 @@
+# App Properties
+# Later you need to create the data in other file
+# Using in JwtUtils
+app.jwtSecret=
+app.jwtExpirationDay=30
